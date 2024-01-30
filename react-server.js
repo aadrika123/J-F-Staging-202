@@ -126,12 +126,7 @@ app.get("/marriage/*", (req, res) => {
   res.sendFile(path.join(__dirname, "marriage_build", "index.html"));
 });
 
-app.get("/adminControl", (req, res) => {
-  res.sendFile(path.join(__dirname, "admin_control_build", "index.html"));
-});
-app.get("/adminControl/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "admin_control_build", "index.html"));
-});
+
 
 // start express server on port 80
 app.listen(80, () => {
