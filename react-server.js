@@ -50,6 +50,7 @@ app.use(express.static("dashboard_property_build"));
 app.use(express.static("swm_build"));
 app.use(express.static("marriage_build"));
 app.use(express.static("admin_control_build"));
+app.use(express.static("fine_penalty_build"));
 
 //actual routes
 app.get("/citizen", (req, res) => {
