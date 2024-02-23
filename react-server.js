@@ -51,6 +51,11 @@ app.use(express.static("swm_build"));
 app.use(express.static("marriage_build"));
 app.use(express.static("admin_control_build"));
 app.use(express.static("fine_penalty_build"));
+app.use(express.static("pet_build"));
+app.use(express.static("lv_dashboard_build"));
+app.use(express.static("agency_build"));
+app.use(express.static("citizen_app_build"));
+app.use(express.static("userControl_build"));
 
 //actual routes
 app.get("/citizen", (req, res) => {
@@ -126,10 +131,40 @@ app.get("/marriage", (req, res) => {
 app.get("/marriage/*", (req, res) => {
   res.sendFile(path.join(__dirname, "marriage_build", "index.html"));
 });
+app.get("/pet", (req, res) => {
+  res.sendFile(path.join(__dirname, "pet_build", "index.html"));
+});
+app.get("/pet/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "pet_build", "index.html"));
+});
+app.get("/liveDashboard", (req, res) => {
+  res.sendFile(path.join(__dirname, "lv_dashboard_build", "index.html"));
+});
+app.get("/liveDashboard/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "lv_dashboard_build", "index.html"));
+});
+app.get("/agency", (req, res) => {
+  res.sendFile(path.join(__dirname, "agency_build", "index.html"));
+});
+app.get("/agency/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "agency_build", "index.html"));
+});
+app.get("/juidco-app", (req, res) => {
+  res.sendFile(path.join(__dirname, "citizen_app_build", "index.html"));
+});
+app.get("/juidco-app/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "citizen_app_build", "index.html"));
+});
+app.get("/userControl", (req, res) => {
+  res.sendFile(path.join(__dirname, "userControl_build", "index.html"));
+});
+app.get("/userControl/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "userControl_build", "index.html"));
+});
 
 
 
 // start express server on port 80
-app.listen(80, () => {
-  console.log("server started on port 80");
+app.listen(500, () => {
+  console.log("server started on port 500");
 });
