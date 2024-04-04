@@ -1,0 +1,23 @@
+name: Deploy to Remote Server
+on:
+  push:
+    branches:
+      - master  # Adjust this according to your branch name
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: SSH and Pull Changes
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.REMOTE_HOST }}
+        username: ${{ secrets.REMOTE_USERNAME }}
+        password: ${{ secrets.REMOTE_PASSWORD }}  # You may use SSH key instead
+        script: |
+          cd /var/www/J-F-Staging-202
+          git pull origin master
