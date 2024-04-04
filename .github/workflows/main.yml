@@ -1,0 +1,38 @@
+name: Merge Pull Requests
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Merge Pull Request
+      run: |
+        # Navigate into the repository directory
+        cd $GITHUB_WORKSPACE
+        
+        # Ensure we're working with the latest version of the branch
+        git fetch origin ${{ github.event.pull_request.base.ref }}
+        git checkout ${{ github.event.pull_request.base.ref }}
+        git reset --hard origin/${{ github.event.pull_request.base.ref }}
+
+        # Merge the pull request
+        git merge --no-ff --no-edit ${{ github.event.pull_request.head.sha }}
+
+        # Check for merge conflicts
+        if git diff --name-only --diff-filter=U | grep .; then
+          echo "Merge conflicts detected. Aborting merge."
+          exit 1
+        fi
+
+        # Push changes
+        git push origin ${{ github.event.pull_request.base.ref }}
+
+      env:
+        GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
