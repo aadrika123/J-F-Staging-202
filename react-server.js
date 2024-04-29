@@ -34,7 +34,7 @@ console.log('before hitt')
 //home route will redirect to the citizen-pannel route
 app.get("/", (req, res) => {
   console.log('home route hitted')
-  res.redirect('/property')
+  res.redirect('/citizen')
 });
 
 //middleware to server static files also
@@ -50,14 +50,14 @@ app.use(express.static("dashboard_property_build"));
 app.use(express.static("swm_build"));
 app.use(express.static("marriage_build"));
 app.use(express.static("admin_control_build"));
-app.use(express.static("fine_penalty_build"));
+app.use(express.static("rmcfine_penalty_build"));
 app.use(express.static("pet_build"));
 app.use(express.static("lv_dashboard_build"));
 app.use(express.static("agency_build"));
 app.use(express.static("citizen_app_build"));
 app.use(express.static("userControl_build"));
 app.use(express.static("adminControl_build"));
-
+app.use(express.static("fine_penalty_build"));
 
 //actual routes
 app.get("/citizen", (req, res) => {
@@ -66,12 +66,19 @@ app.get("/citizen", (req, res) => {
 app.get("/citizen/*", (req, res) => {
   res.sendFile(path.join(__dirname, "citizen_build", "index.html"));
 });
+app.get("/rmcfines", (req, res) => {
+  res.sendFile(path.join(__dirname, "rmcfine_penalty_build", "index.html"));
+});
+app.get("/rmcfines/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "rmcfine_penalty_build", "index.html"));
+});
 app.get("/fines", (req, res) => {
   res.sendFile(path.join(__dirname, "fine_penalty_build", "index.html"));
 });
 app.get("/fines/*", (req, res) => {
   res.sendFile(path.join(__dirname, "fine_penalty_build", "index.html"));
 });
+
 app.get("/admin", (req, res) => {
   res.sendFile(path.join(__dirname, "admin_build", "index.html"));
 });
