@@ -191,10 +191,10 @@ app.get("/rig", (req, res) => {
 app.get("/rig/*", (req, res) => {
   res.sendFile(path.join(__dirname, "rig_build", "index.html"));
 });
-app.get("/pms", (req, res) => {
+app.get("/procurement", (req, res) => {
   res.sendFile(path.join(__dirname, "pms_build", "index.html"));
 });
-app.get("/pms/*", (req, res) => {
+app.get("/procurement/*", (req, res) => {
   res.sendFile(path.join(__dirname, "pms_build", "index.html"));
 });
 
