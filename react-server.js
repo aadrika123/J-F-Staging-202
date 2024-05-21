@@ -61,6 +61,7 @@ app.use(express.static("fine_penalty_build"));
 app.use(express.static("fines_app_build"));
 app.use(express.static("rig_build"));
 app.use(express.static("pms_build"));
+app.use(express.static("ptms_build"));
 
 //actual routes
 app.get("/citizen", (req, res) => {
@@ -196,6 +197,12 @@ app.get("/procurement", (req, res) => {
 });
 app.get("/procurement/*", (req, res) => {
   res.sendFile(path.join(__dirname, "pms_build", "index.html"));
+});
+app.get("/ptms", (req, res) => {
+  res.sendFile(path.join(__dirname, "ptms_build", "index.html"));
+});
+app.get("/ptms/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "ptms_build", "index.html"));
 });
 
 
