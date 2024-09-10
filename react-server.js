@@ -63,7 +63,7 @@ app.use(express.static("rig_build"));
 app.use(express.static("pms_build"));
 app.use(express.static("ptms_build"));
 app.use(express.static("parking_build"));
-app.use(express.static("lamsMobileApp_build"));
+app.use(express.static("mobile-lams_build"));
 
 //actual routes
 app.get("/citizen", (req, res) => {
@@ -212,11 +212,11 @@ app.get("/parking", (req, res) => {
 app.get("/parking/*", (req, res) => {
   res.sendFile(path.join(__dirname, "parking_build", "index.html"));
 });
-app.get("/lamsMobileApp", (req, res) => {
-  res.sendFile(path.join(__dirname, "lamsMobileApp_build", "index.html"));
+app.get("/mobile-lams", (req, res) => {
+  res.sendFile(path.join(__dirname, "mobile-lams_build", "index.html"));
 });
-app.get("/lamsMobileApp/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "lamsMobileApp_build", "index.html"));
+app.get("/mobile-lams/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "mobile-lams_build", "index.html"));
 });
 
 
