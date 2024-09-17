@@ -65,6 +65,7 @@ app.use(express.static("ptms_build"));
 app.use(express.static("parking_build"));
 app.use(express.static("mobile-lams_build"));
 app.use(express.static("parking_app_build"));
+app.use(express.static("financeCommission_build"));
 
 //actual routes
 app.get("/citizen", (req, res) => {
@@ -224,6 +225,12 @@ app.get("/parking-app", (req, res) => {
 });
 app.get("/parking-app/*", (req, res) => {
   res.sendFile(path.join(__dirname, "parking_app_build", "index.html"));
+});
+app.get("/financeCommission", (req, res) => {
+  res.sendFile(path.join(__dirname, "financeCommission_build", "index.html"));
+});
+app.get("/financeCommission /*", (req, res) => {
+  res.sendFile(path.join(__dirname, "financeCommission_build", "index.html"));
 });
 
 
