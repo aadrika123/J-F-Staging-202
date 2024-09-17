@@ -226,10 +226,10 @@ app.get("/parking-app", (req, res) => {
 app.get("/parking-app/*", (req, res) => {
   res.sendFile(path.join(__dirname, "parking_app_build", "index.html"));
 });
-app.get("/financeCommission", (req, res) => {
+app.get("/finance-commission", (req, res) => {
   res.sendFile(path.join(__dirname, "financeCommission_build", "index.html"));
 });
-app.get("/financeCommission/*", (req, res) => {
+app.get("/finance-commission/*", (req, res) => {
   res.sendFile(path.join(__dirname, "financeCommission_build", "index.html"));
 });
 
