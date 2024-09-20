@@ -1,0 +1,18 @@
+import{u as k,j as s,I as C,B as M,p as L}from"./index-2S3dvlvG.js";import{P as S}from"./index-Cf4WRWsD.js";import{C as A,I as v}from"./Image-C6ufnThr.js";import{c as B}from"./useCustomQuery-w-fCFI_Y.js";import{h as w}from"./moment-BjLXg0w5.js";import{S as P}from"./separator-BEygEndg.js";import{b as Y}from"./router-DLL89Qev.js";import"./axios-DmypytPv.js";import"./headlessui-DXpdh5LM.js";function R(){var r,n,i,o,l,m,c,d,x,h;const T=Y(),{user:t}=k(),a=new URLSearchParams(T.search).get("receipt_no"),e=B({api:`${L.inReceipt}/${a}`,key:"inReceipt",options:{enabled:!!a}}),_=()=>{var f,j,N,p,g,u,y,b;return`[C]Ranchi Municipal Corporation
+[C]Parking
+ 
+Date: `+((j=(f=e==null?void 0:e.data)==null?void 0:f.data)==null?void 0:j.date)+`
+ 
+In-Time:: `+((p=(N=e==null?void 0:e.data)==null?void 0:N.data)==null?void 0:p.in_time)+`
+ 
+Vehicle No: `+((u=(g=e==null?void 0:e.data)==null?void 0:g.data)==null?void 0:u.vehicle_no)+`
+ 
+Incharge ID: `+(t==null?void 0:t.emp_id)+`
+ 
+Receipt: `+((b=(y=e==null?void 0:e.data)==null?void 0:y.data)==null?void 0:b.receipt_no)+`
+
+ 
+Thank You for using our service!
+
+ 
+*******************************`},I=()=>{window.ReactNativeWebView&&window.ReactNativeWebView.postMessage(JSON.stringify({Key:"PRINT_FOR_BT_PRINTER",keyData:{charPerLine:32,printTxt:_()}}))};return e!=null&&e.isLoading?s.jsx("div",{className:"flex justify-center items-center h-[700px]",children:s.jsx(C,{})}):s.jsx(S,{title:"Receipt",children:s.jsx("div",{className:"p-4",children:s.jsx(A,{children:s.jsxs("div",{className:"flex flex-col justify-center items-center py-8 px-10",children:[s.jsx("div",{children:s.jsx(v,{src:"/assets/image/RMC_LOGO.png",alt:"receipt"})}),s.jsx("div",{className:"flex flex-col md:flex-row",children:s.jsxs("div",{className:"flex flex-col justify-center items-center",children:[s.jsx("div",{className:"flex mt-2 ",children:s.jsx("h2",{style:{fontWeight:500,fontSize:20},className:"text-[#585858]",children:"Ranchi Municipal Corporation"})}),s.jsxs("div",{className:"flex flex-row justify-center items-center",children:[s.jsx("h1",{className:"text-md font-bold break-words text-[#1436C3]",children:"Parking Management System"}),s.jsx(v,{src:"/assets/image/bus 1.png",alt:"Bus",className:"ml-2 max-w-full h-5 w-5"})]})]})}),s.jsx(P,{className:"mt-5 mb-5"}),s.jsxs("div",{className:"grid grid-cols-2 gap-2",children:[s.jsx("h1",{className:"text-sm font-semibold text-gray-600",children:"Date:"}),s.jsx("h1",{className:"text-sm font-semibold text-gray-600",children:w((n=(r=e==null?void 0:e.data)==null?void 0:r.data)==null?void 0:n.date).format("DD-MM-YYYY")}),s.jsx("h1",{className:"text-sm font-semibold text-gray-600",children:"In Time:"}),s.jsx("h1",{className:"text-sm font-semibold text-gray-600",children:w((o=(i=e==null?void 0:e.data)==null?void 0:i.data)==null?void 0:o.in_time,"HH:mm").format("hh:mm A")}),s.jsx("h1",{className:"text-sm font-semibold text-gray-600",children:"Vehicle No:"}),s.jsx("h1",{className:"text-sm font-semibold text-gray-600",children:(m=(l=e==null?void 0:e.data)==null?void 0:l.data)==null?void 0:m.vehicle_no}),s.jsx("h1",{className:"text-sm font-semibold text-gray-600",children:"Address:"}),s.jsxs("h1",{className:"text-sm font-semibold text-gray-600",children:[(d=(c=e==null?void 0:e.data)==null?void 0:c.data)==null?void 0:d.address," Main Road, Ranchi, Jharkhand"]}),s.jsx("h1",{className:"text-sm font-semibold text-gray-600",children:"Receipt no:"}),s.jsx("h1",{className:"text-sm font-semibold text-gray-600",children:(h=(x=e==null?void 0:e.data)==null?void 0:x.data)==null?void 0:h.receipt_no})]}),s.jsx(P,{className:"mt-5 mb-5"}),s.jsx("div",{className:"flex justify-center w-full",children:s.jsx(M,{size:"sm",onClick:I,children:"Print Receipt"})})]})})})})}export{R as default};
