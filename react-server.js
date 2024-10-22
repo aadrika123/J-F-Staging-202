@@ -244,5 +244,5 @@ app.get("/grievance/*", (req, res) => {
 
 // start express server on port 80
 app.listen(500, () => {
-  console.log("server started on port 700");
+  console.log("server started on port 500");
 });
