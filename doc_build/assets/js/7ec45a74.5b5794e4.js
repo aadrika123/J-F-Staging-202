@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcollibet=self.webpackChunkcollibet||[]).push([[3577],{9594:e=>{e.exports=JSON.parse('{"title":"Database","slug":"/category/database-1","permalink":"/docs/category/database-1","navigation":{"previous":{"title":"Intro","permalink":"/docs/Property/intro"},"next":{"title":"Schema","permalink":"/docs/Property/Database/intro"}}}')}}]);

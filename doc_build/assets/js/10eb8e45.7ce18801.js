@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcollibet=self.webpackChunkcollibet||[]).push([[5221],{3053:e=>{e.exports=JSON.parse('{"title":"| Property","slug":"/category/-property","permalink":"/docs/category/-property","navigation":{"previous":{"title":"Intro","permalink":"/docs/Grievance/Frontend/intro"},"next":{"title":"Intro","permalink":"/docs/Property/intro"}}}')}}]);

@@ -67,6 +67,7 @@ app.use(express.static("mobile-lams_build"));
 app.use(express.static("parking_app_build"));
 app.use(express.static("financeCommission_build"));
 app.use(express.static("grievance_build"));
+app.use(express.static("doc_build"));
 
 //actual routes
 app.get("/citizen", (req, res) => {
@@ -238,6 +239,13 @@ app.get("/grievance", (req, res) => {
 });
 app.get("/grievance/*", (req, res) => {
   res.sendFile(path.join(__dirname, "grievance_build", "index.html"));
+});
+
+app.get("/docs", (req, res) => {
+  res.sendFile(path.join(__dirname, "doc_build", "index.html"));
+});
+app.get("/docs/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "doc_build", "index.html"));
 });
 
 

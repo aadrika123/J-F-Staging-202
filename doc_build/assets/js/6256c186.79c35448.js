@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcollibet=self.webpackChunkcollibet||[]).push([[6872],{4061:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);

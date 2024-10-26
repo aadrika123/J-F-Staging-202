@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcollibet=self.webpackChunkcollibet||[]).push([[8448],{5140:e=>{e.exports=JSON.parse('{"title":"| Grievance","slug":"/category/-grievance","permalink":"/docs/category/-grievance","navigation":{"previous":{"title":"Tutorial Intro","permalink":"/docs/intro"},"next":{"title":"Intro","permalink":"/docs/Grievance/intro"}}}')}}]);
