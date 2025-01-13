@@ -259,7 +259,7 @@ app.get("/edak", (req, res) => {
   res.sendFile(path.join(__dirname, "edak_build", "index.html"));
 });
 app.get("/edak/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "edak_build_build", "index.html"));
+  res.sendFile(path.join(__dirname, "edak_build", "index.html"));
 });
 
 
