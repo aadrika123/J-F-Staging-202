@@ -255,10 +255,10 @@ app.get("/firepad", (req, res) => {
 app.get("/firepad/*", (req, res) => {
   res.sendFile(path.join(__dirname, "firepad_build", "index.html"));
 });
-app.get("/e-dak", (req, res) => {
+app.get("/e-dak/auth/login", (req, res) => {
   res.sendFile(path.join(__dirname, "edak_build", "index.html"));
 });
-app.get("/e-dak/*", (req, res) => {
+app.get("/e-dak/auth/login/*", (req, res) => {
   res.sendFile(path.join(__dirname, "edak_build", "index.html"));
 });
 
