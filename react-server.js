@@ -67,6 +67,7 @@ app.use(express.static("mobile-lams_build"));
 app.use(express.static("parking_app_build"));
 app.use(express.static("financeCommission_build"));
 app.use(express.static("grievance_build"));
+app.use(express.static("edak_build"));
 app.use(express.static("doc_build"));
 app.use(express.static("firepad_build"));
 
@@ -253,6 +254,12 @@ app.get("/firepad", (req, res) => {
 });
 app.get("/firepad/*", (req, res) => {
   res.sendFile(path.join(__dirname, "firepad_build", "index.html"));
+});
+app.get("/edak", (req, res) => {
+  res.sendFile(path.join(__dirname, "edak_build", "index.html"));
+});
+app.get("/edak/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "edak_build_build", "index.html"));
 });
 
 
