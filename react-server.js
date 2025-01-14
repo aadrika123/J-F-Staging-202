@@ -70,6 +70,7 @@ app.use(express.static("grievance_build"));
 app.use(express.static("edak_build"));
 app.use(express.static("doc_build"));
 app.use(express.static("firepad_build"));
+app.use(express.static("masterControl_build"));
 
 //actual routes
 app.get("/citizen", (req, res) => {
@@ -260,6 +261,12 @@ app.get("/e-dak/auth/login", (req, res) => {
 });
 app.get("/e-dak/auth/login/*", (req, res) => {
   res.sendFile(path.join(__dirname, "edak_build", "index.html"));
+});
+app.get("/master-control", (req, res) => {
+  res.sendFile(path.join(__dirname, "masterControl_build", "index.html"));
+});
+app.get("/master-control/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "masterControl_build", "index.html"));
 });
 
 
