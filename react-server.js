@@ -71,6 +71,7 @@ app.use(express.static("edak_build"));
 app.use(express.static("doc_build"));
 app.use(express.static("firepad_build"));
 app.use(express.static("masterControl_build"));
+app.use(express.static("septicTank_build"));
 
 //actual routes
 app.get("/citizen", (req, res) => {
@@ -267,6 +268,12 @@ app.get("/master-control", (req, res) => {
 });
 app.get("/master-control/*", (req, res) => {
   res.sendFile(path.join(__dirname, "masterControl_build", "index.html"));
+});
+app.get("/septicTank", (req, res) => {
+  res.sendFile(path.join(__dirname, "septicTank_build", "index.html"));
+});
+app.get("/septicTank/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "septicTank_build", "index.html"));
 });
 
 
