@@ -73,7 +73,7 @@ app.use(express.static("firepad_build"));
 app.use(express.static("masterControl_build"));
 app.use(express.static("septicTank_build"));
 app.use(express.static("juidco_swm_app"));
-app.use(express.static("newFinance_build"))
+app.use(express.static("finance_build"))
 
 //actual routes
 app.get("/citizen", (req, res) => {
@@ -283,11 +283,11 @@ app.get("/juidco-swm-app", (req, res) => {
 app.get("/juidco-swm-app/*", (req, res) => {
   res.sendFile(path.join(__dirname, "juidco_swm_app", "index.html"));
 });
-app.get("/newFinance", (req, res) => {
-  res.sendFile(path.join(__dirname, "newFinance_build", "index.html"));
+app.get("/finance", (req, res) => {
+  res.sendFile(path.join(__dirname, "finance_build", "index.html"));
 });
-app.get("/newFinance/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "newFinance_build", "index.html"));
+app.get("/finance/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "finance_build", "index.html"));
 });
 
 
