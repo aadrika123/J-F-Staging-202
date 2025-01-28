@@ -283,10 +283,10 @@ app.get("/juidco-swm-app", (req, res) => {
 app.get("/juidco-swm-app/*", (req, res) => {
   res.sendFile(path.join(__dirname, "juidco_swm_app", "index.html"));
 });
-app.get("/finance", (req, res) => {
+app.get("/finance-new", (req, res) => {
   res.sendFile(path.join(__dirname, "finance_build", "index.html"));
 });
-app.get("/finance/*", (req, res) => {
+app.get("/finance-new/*", (req, res) => {
   res.sendFile(path.join(__dirname, "finance_build", "index.html"));
 });
 
