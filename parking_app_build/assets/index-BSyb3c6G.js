@@ -1,5 +1,1 @@
-<<<<<<<< HEAD:parking_app_build/assets/index-BSyb3c6G.js
 import{j as e}from"./index-9C0QWLoG.js";import{P as t}from"./index-CeUuQmLY.js";import"./router-DLL89Qev.js";import"./axios-DmypytPv.js";import"./headlessui-DXpdh5LM.js";function c(){return e.jsx(t,{title:"Generate Ticket",children:e.jsx("div",{className:"p-6",children:e.jsx("div",{className:"flex justify-center items-center  flex-col gap-2",children:e.jsx("h1",{className:"font-bold text-gray-600",children:"Under Maintenance"})})})})}export{c as default};
-========
-import{j as e}from"./index-BrJLVVAv.js";import{P as t}from"./index-s4JokU_B.js";import"./router-DLL89Qev.js";import"./axios-DmypytPv.js";import"./headlessui-DXpdh5LM.js";function c(){return e.jsx(t,{title:"Generate Ticket",children:e.jsx("div",{className:"p-6",children:e.jsx("div",{className:"flex justify-center items-center  flex-col gap-2",children:e.jsx("h1",{className:"font-bold text-gray-600",children:"Under Maintenance"})})})})}export{c as default};
->>>>>>>> 1bb514b95ee0a89e8a6754ddbd18e3979f40a996:parking_app_build/assets/index-Bxk5xuT1.js

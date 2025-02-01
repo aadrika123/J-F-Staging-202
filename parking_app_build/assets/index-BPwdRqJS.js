@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:parking_app_build/assets/index-BPwdRqJS.js
 import{u as d,j as e,B as h}from"./index-9C0QWLoG.js";import{P as f}from"./index-CeUuQmLY.js";import{C as j,I as r}from"./Image-cSgEmi7w.js";import{h as c}from"./moment-BjLXg0w5.js";import{S as l}from"./separator-y-x740G0.js";import{b as g}from"./router-DLL89Qev.js";import"./axios-DmypytPv.js";import"./headlessui-DXpdh5LM.js";function I(){const o=g(),{user:t}=d(),s=new URLSearchParams(o.search),a=s.get("transaction_id"),n=s.get("amount"),i=s.get("date"),m=()=>"[C]"+(t==null?void 0:t.ulb_name)+`
-========
-import{u as d,j as e,B as h}from"./index-BrJLVVAv.js";import{P as f}from"./index-s4JokU_B.js";import{C as j,I as r}from"./Image-CEiGsrZi.js";import{h as c}from"./moment-BjLXg0w5.js";import{S as l}from"./separator-D0_soqF2.js";import{b as g}from"./router-DLL89Qev.js";import"./axios-DmypytPv.js";import"./headlessui-DXpdh5LM.js";function I(){const o=g(),{user:t}=d(),s=new URLSearchParams(o.search),a=s.get("transaction_id"),n=s.get("amount"),i=s.get("date"),m=()=>"[C]"+(t==null?void 0:t.ulb_name)+`
->>>>>>>> 1bb514b95ee0a89e8a6754ddbd18e3979f40a996:parking_app_build/assets/index-B8xQ6nCR.js
 [C]Parking
 *******************************
  
