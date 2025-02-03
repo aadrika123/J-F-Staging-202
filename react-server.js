@@ -259,10 +259,10 @@ app.get("/firepad", (req, res) => {
 app.get("/firepad/*", (req, res) => {
   res.sendFile(path.join(__dirname, "firepad_build", "index.html"));
 });
-app.get("/e-dak/auth/login", (req, res) => {
+app.get("/edak", (req, res) => {
   res.sendFile(path.join(__dirname, "edak_build", "index.html"));
 });
-app.get("/e-dak/auth/login/*", (req, res) => {
+app.get("/edak/*", (req, res) => {
   res.sendFile(path.join(__dirname, "edak_build", "index.html"));
 });
 app.get("/master-control", (req, res) => {
