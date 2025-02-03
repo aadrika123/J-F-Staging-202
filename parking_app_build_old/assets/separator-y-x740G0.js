@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:parking_app_build/assets/separator-y-x740G0.js
 import{b as p,d as $,j as u,f as v}from"./index-9C0QWLoG.js";import{r as i}from"./router-DLL89Qev.js";const c="horizontal",x=["horizontal","vertical"],s=i.forwardRef((r,e)=>{const{decorative:o,orientation:t=c,...a}=r,n=d(t)?t:c,l=o?{role:"none"}:{"aria-orientation":n==="vertical"?n:void 0,role:"separator"};return i.createElement(p.div,$({"data-orientation":n},l,a,{ref:e}))});s.propTypes={orientation(r,e,o){const t=r[e],a=String(t);return t&&!d(t)?new Error(m(a,o)):null}};function m(r,e){return`Invalid prop \`orientation\` of value \`${r}\` supplied to \`${e}\`, expected one of:
-========
-import{b as p,d as $,j as u,f as v}from"./index-BrJLVVAv.js";import{r as i}from"./router-DLL89Qev.js";const c="horizontal",x=["horizontal","vertical"],s=i.forwardRef((r,e)=>{const{decorative:o,orientation:t=c,...a}=r,n=d(t)?t:c,l=o?{role:"none"}:{"aria-orientation":n==="vertical"?n:void 0,role:"separator"};return i.createElement(p.div,$({"data-orientation":n},l,a,{ref:e}))});s.propTypes={orientation(r,e,o){const t=r[e],a=String(t);return t&&!d(t)?new Error(m(a,o)):null}};function m(r,e){return`Invalid prop \`orientation\` of value \`${r}\` supplied to \`${e}\`, expected one of:
->>>>>>>> 1bb514b95ee0a89e8a6754ddbd18e3979f40a996:parking_app_build/assets/separator-D0_soqF2.js
   - horizontal
   - vertical
 

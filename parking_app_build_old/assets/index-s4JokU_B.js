@@ -1,5 +1,0 @@
-<<<<<<<< HEAD:parking_app_build/assets/index-CeUuQmLY.js
-import{u as c,j as e,J as i}from"./index-9C0QWLoG.js";import{r as t}from"./router-DLL89Qev.js";function f(r=""){const{setTitle:s}=c();return t.useEffect(()=>{s(r)},[r]),null}const l=t.forwardRef(({children:r,title:s="",meta:o,...n},a)=>(f(s),t.useEffect(()=>{window.scrollTo({top:0,left:0,behavior:"smooth"})},[s]),e.jsxs(e.Fragment,{children:[e.jsxs(i,{children:[e.jsx("title",{children:`${s} | Parking`}),o]}),e.jsx("div",{ref:a,...n,children:r})]}))),p=l;export{p as P};
-========
-import{u as c,j as e,J as i}from"./index-BrJLVVAv.js";import{r as t}from"./router-DLL89Qev.js";function f(r=""){const{setTitle:s}=c();return t.useEffect(()=>{s(r)},[r]),null}const l=t.forwardRef(({children:r,title:s="",meta:o,...n},a)=>(f(s),t.useEffect(()=>{window.scrollTo({top:0,left:0,behavior:"smooth"})},[s]),e.jsxs(e.Fragment,{children:[e.jsxs(i,{children:[e.jsx("title",{children:`${s} | Parking`}),o]}),e.jsx("div",{ref:a,...n,children:r})]}))),p=l;export{p as P};
->>>>>>>> 1bb514b95ee0a89e8a6754ddbd18e3979f40a996:parking_app_build/assets/index-s4JokU_B.js
