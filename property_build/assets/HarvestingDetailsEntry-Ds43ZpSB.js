@@ -1,0 +1,5 @@
+<<<<<<<< HEAD:dist/assets/HarvestingDetailsEntry-BuDxnGyN.js
+import{l as s,aI as e,j as t,cd as r}from"./index-B-6706zh.js";import{D as o}from"./DetailsFactory-BjzsDmNk.js";function p(){s("Rainwater Harvesting Details");const{get_HarvestingDetailsById:a}=e(),i={api:{api_getAppicationFullDetail:{method:"post",url:a}},detailInfo:{title:"RainWater-Harvesting Details"},filters:{topButtons:!1}};return t.jsx(r,{errorMsg:"Bug in TransactionHistoryFactory",children:t.jsx(o,{detailRules:i})})}export{p as default};
+========
+import{l as s,aI as e,j as t,cd as r}from"./index-BUa36MMV.js";import{D as o}from"./DetailsFactory-Ddcar1WQ.js";function p(){s("Rainwater Harvesting Details");const{get_HarvestingDetailsById:a}=e(),i={api:{api_getAppicationFullDetail:{method:"post",url:a}},detailInfo:{title:"RainWater-Harvesting Details"},filters:{topButtons:!1}};return t.jsx(r,{errorMsg:"Bug in TransactionHistoryFactory",children:t.jsx(o,{detailRules:i})})}export{p as default};
+>>>>>>>> b61f05881f81c068a129891af1e134b21c365f4b:dist/assets/HarvestingDetailsEntry-Ds43ZpSB.js
