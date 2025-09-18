@@ -1,5 +1,0 @@
-<<<<<<<< HEAD:dist/assets/HoldingDeactivationDetailsEntry-C1OYNdA5.js
-import{l as o,j as t,cd as e,bM as s}from"./index-B-6706zh.js";import{D as r}from"./DetailsFactory-BjzsDmNk.js";function c(){o("Holding Deactivation Details");const{get_HoldingDeactivationDetailsById:i}=s(),a={api:{api_getAppicationFullDetail:{method:"post",url:i}},detailInfo:{title:"Holding Deactivation Details"},filters:{topButtons:!1}};return t.jsx(e,{errorMsg:"Bug in TransactionHistoryFactory",children:t.jsx(r,{detailRules:a})})}export{c as default};
-========
-import{l as o,j as t,cd as e,bM as s}from"./index-BUa36MMV.js";import{D as r}from"./DetailsFactory-Ddcar1WQ.js";function c(){o("Holding Deactivation Details");const{get_HoldingDeactivationDetailsById:i}=s(),a={api:{api_getAppicationFullDetail:{method:"post",url:i}},detailInfo:{title:"Holding Deactivation Details"},filters:{topButtons:!1}};return t.jsx(e,{errorMsg:"Bug in TransactionHistoryFactory",children:t.jsx(r,{detailRules:a})})}export{c as default};
->>>>>>>> b61f05881f81c068a129891af1e134b21c365f4b:dist/assets/HoldingDeactivationDetailsEntry-CCXPVbCy.js

@@ -1,5 +1,1 @@
-<<<<<<<< HEAD:dist/assets/ObjectionDetailsEntry-D98bMhIJ.js
 import{l as s,aI as o,j as t,cd as a}from"./index-B-6706zh.js";import{D as r}from"./DetailsFactory-BjzsDmNk.js";function c(){s("Objection Details");const{get_ObjectionDetailsById:i}=o(),e={api:{api_getAppicationFullDetail:{method:"post",url:i}},detailInfo:{title:"Objection Details"},filters:{topButtons:!1}};return t.jsx(a,{errorMsg:"Bug in TransactionHistoryFactory",children:t.jsx(r,{detailRules:e})})}export{c as default};
-========
-import{l as s,aI as o,j as t,cd as a}from"./index-BUa36MMV.js";import{D as r}from"./DetailsFactory-Ddcar1WQ.js";function c(){s("Objection Details");const{get_ObjectionDetailsById:i}=o(),e={api:{api_getAppicationFullDetail:{method:"post",url:i}},detailInfo:{title:"Objection Details"},filters:{topButtons:!1}};return t.jsx(a,{errorMsg:"Bug in TransactionHistoryFactory",children:t.jsx(r,{detailRules:e})})}export{c as default};
->>>>>>>> b61f05881f81c068a129891af1e134b21c365f4b:dist/assets/ObjectionDetailsEntry-CjYBlpui.js
