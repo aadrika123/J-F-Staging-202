@@ -76,6 +76,7 @@ app.use(express.static("market_management_build"));
 app.use(express.static("municipal_rental_build"));
 app.use(express.static("water_tanker_build"));
 app.use(express.static("public_transport_build"));
+app.use(express.static("firepad_build"));
 
 
 //actual routes
@@ -301,6 +302,12 @@ app.get("/public-transport", (req, res) => {
 });
 app.get("/public-transport/*", (req, res) => {
   res.sendFile(path.join(__dirname, "public_transport_build", "index.html"));
+});
+app.get("/firepad", (req, res) => {
+  res.sendFile(path.join(__dirname, "firepad_build", "index.html"));
+});
+app.get("/firepad/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "firepad_build", "index.html"));
 });
 app.get("/server-health", (req, res) => {
   res.json({ sucess: true, message: 'Server is running Ok' })
