@@ -1,1 +1,0 @@
-import{j as t}from"./index-iIbcOzG_.js";import{a as e}from"./index-wSSP3ZP8.js";function s(){return t.jsx("div",{})}function a(){return t.jsx(e,{title:"Menu Role List (master)",subTitle:"",children:t.jsx("div",{className:"py-0",children:t.jsx(s,{})})})}export{a as default};
