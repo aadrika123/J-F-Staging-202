@@ -1,0 +1,1 @@
+const l=(l,a,s=null)=>l.length>s?a:""===l||/^\d*\.?\d*$/.test(l)?l:a,a=(l,a,s=null)=>l.length>s?a:""===l||/^[0-9\b]+$/.test(l)?l:a,s=(l,a,s=null)=>l.length>s?a:""===l||/^[a-zA-Z\s]*$/.test(l)?l:a,n=(l,a,s=null)=>l.length>s?a:""===l||/^[\a-zA-Z0-9!]*$/.test(l)?l:a,u=(l,a,s=null)=>l.length>s?a:""===l||/^[\a-zA-Z0-9@.!]*$/.test(l)?l:a;export{s as a,a as b,u as c,n as d,l as e};

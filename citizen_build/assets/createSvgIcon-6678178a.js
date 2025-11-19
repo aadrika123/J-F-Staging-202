@@ -1,0 +1,1 @@
+import{a as r}from"./router-a70afc62.js";import{y as e}from"./mui-d8134288.js";var t={};const o=r(e);var u;function a(){return u||(u=1,function(r){Object.defineProperty(r,"t",{value:!0}),Object.defineProperty(r,"default",{enumerable:!0,get:function(){return e.createSvgIcon}});var e=o}(t)),t}export{a as r};
