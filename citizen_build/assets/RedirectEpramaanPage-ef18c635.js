@@ -1,0 +1,1 @@
+import{u as o,r}from"./router-a70afc62.js";const s=()=>{const s=o(),e=new URLSearchParams(window.location.search).get("LogoutResponse");return r.useEffect(()=>{e&&s("/")},[e]),null};export{s as default};
